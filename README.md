@@ -1,6 +1,6 @@
 # Lab-1 Git Repository Seed
 
-This file is the template for the first lab in Ashesi Web Development 2020.
+This file is the template for the first lab in Ashesi Web Development 2020. Naana Sarkodie is the user of this file.
 
 ## Contents
 
