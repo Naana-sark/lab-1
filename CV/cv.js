@@ -1,3 +1,7 @@
+/**
+ * @author Naana Sarkodie
+ */
+
 firstName = localStorage.getItem("first");
 middleName = localStorage.getItem("middle");
 lastName = localStorage.getItem("last");
@@ -8,6 +12,6 @@ address = localStorage.getItem("address");
 
 document.getElementById("name").innerHTML = firstName +" "+middleName+" "+lastName;
 document.getElementById("address").innerHTML = address;
-document.getElementById("phone").innerHTML = phoneNumber;
+document.getElementById("phoneNumber").innerHTML = phoneNumber;
 document.getElementById("email").innerHTML = email;
 document.getElementById("gender").innerHTML = gender;

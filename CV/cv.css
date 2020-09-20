@@ -1,8 +1,4 @@
-/*:root{
-    font-size: 12pt;
-}*/
-
-*{
+{
     font-family: 'Poppins', sans-serif;
     box-sizing:border-box;
     
@@ -71,6 +67,33 @@ nav ul li{
 }
 
 
+.error{
+    border: 2px solid red;
+  }
+  .cont{
+    background-color: white;
+    font-family: Verdana, Geneva,sans-serif;
+    font-size: 8.5px;
+    text-align:left;
+  
+  }
+  .cont p {
+    font-family: Verdana, Geneva,sans-serif;
+    text-align: left;
+    font-size: 8.5px;
+  
+  }
+  h2{
+  
+    font-family: Verdana, Geneva,sans-serif;
+    font-size: 8.5px;
+    text-align: left;
+    
+  }
+  .tns{
+    float: right;
+    font-size: 8.5px;
+  }
 
 @media(min-width: 800px){
     .titlespace{
@@ -130,17 +153,17 @@ button:hover{
  p {
   font-family: Verdana, Geneva,sans-serif;
   text-align: left;
-  font-size:8.5px;
+  font-size:10px;
 
 }
 h2{
 
   font-family: Verdana, Geneva,sans-serif;
-  font-size: 8.5px;
+  font-size: 10px;
   text-align: left;
   
 }
 .tns{
   float: right;
-  font-size: 8.5px;
+  font-size: 10px;
 }
