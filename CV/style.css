@@ -72,7 +72,7 @@ nav ul li{
   color: rgb(0, 81, 128);
   text-align-last: center;
 }
-.btms{
+.btns{
 padding: 30%
 }
 .btns a {
@@ -136,9 +136,9 @@ label{
 }
 
 .mn{
-  padding: 15px;
+  padding: 30px;
   align-self: center;
-  height: 50px;
+  height: 60px;
 }
 
 
