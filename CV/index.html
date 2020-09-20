@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+  <body>
+
+    <header>
+          <div class="top-header">
+              <nav id="class">
+                  <ul>
+                    <li><a href="welcome.html" >Welcome</a></li>
+                    <li><a href ="index.html">Form</a></li>
+                    <li><a href="cv.html">CV</a></li>
+
+                  </ul>
+              </nav>
+          </div>
+      </header>
+
+      <!--Form starts-->
+      <h1 id="app" style="text-align: center";>CV details</h1>
+      <form id="addForm" class="form-box" method="POST">
+        <div class="field-group">
+          <label for="first">First Name: </label>
+          <input type="text" id="first" name="f_name"  placeholder="First Name" required>
+        </div>
+
+        <div class="field-group">
+          <label for="middle">Middle Name: </label>
+          <input type="text" id="middle" name="m_name" placeholder="Middle Name" required>
+        </div>
+
+        <div class="field-group">
+          <label for="last">Last Name: </label>
+          <input type="text" id="last" name="l_name" placeholder="Last Name" required>
+        </div>
+
+        <div class="field-group">
+          <label for ="email">Email</label>
+          <input type="email" id="email" name="email"  placeholder="Email" required>
+        </div>
+
+        <div class="field-group">
+          <label for ="address">Address</label>
+          <input type="address" id="address" name="address"  placeholder="Address" required>
+        </div>
+
+        <div class="field-group">
+          <label for="phone">Phone number:</label>
+          <input type="tel" id="phone" name="phone"
+          placeholder="Phone number" 
+          required>
+          
+        </div>
+
+        <div class="radio-box">
+          <p>Gender</p>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label><br>
+        </div>
+        <button id="addStudentSubmit" type="submit" value="add" >Submit</button>
+        <div class="radio-box" id="form-errors"></div>
+      </form>
+
+      <!--form ends-->
+
+     <!-- <div class="btns">
+        <a href="welcome.html" class="previous">&laquo; Welcome</a>
+        <a href="welcome.html" class="previous round">&#8249;</a>
+        <a href="cv.html" class="next">CV &raquo;</a>-->
+        
+        <!--<a href="cv.html" class="next round">&#8250;</a>-->
+      <!--</div> -->
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
